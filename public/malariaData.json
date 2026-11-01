@@ -1,0 +1,61 @@
+{
+  "mapData": [
+    { "iso": "NGA", "name": "Nigeria", "cases": 65500 },
+    { "iso": "COD", "name": "DR Congo", "cases": 29800 },
+    { "iso": "UGA", "name": "Uganda", "cases": 12600 },
+    { "iso": "MOZ", "name": "Mozambique", "cases": 10800 },
+    { "iso": "AGO", "name": "Angola", "cases": 8700 },
+    { "iso": "TZA", "name": "Tanzania", "cases": 8000 },
+    { "iso": "IND", "name": "India", "cases": 5600 },
+    { "iso": "KEN", "name": "Kenya", "cases": 4000 },
+    { "iso": "IDN", "name": "Indonesia", "cases": 2500 },
+    { "iso": "PAK", "name": "Pakistan", "cases": 1700 },
+    { "iso": "BRA", "name": "Brazil", "cases": 1400 },
+    { "iso": "MMR", "name": "Myanmar", "cases": 1200 },
+    { "iso": "VEN", "name": "Venezuela", "cases": 800 },
+    { "iso": "COL", "name": "Colombia", "cases": 600 }
+  ],
+  "continentData": {
+    "Africa": {
+      "status": "Highly Affected",
+      "countries": [
+        { "name": "Nigeria", "cases": 65500 },
+        { "name": "DR Congo", "cases": 29800 },
+        { "name": "Uganda", "cases": 12600 },
+        { "name": "Mozambique", "cases": 10800 },
+        { "name": "Angola", "cases": 8700 }
+      ]
+    },
+    "Asia": {
+      "status": "Affected",
+      "countries": [
+        { "name": "India", "cases": 5600 },
+        { "name": "Indonesia", "cases": 2500 },
+        { "name": "Pakistan", "cases": 1700 },
+        { "name": "Myanmar", "cases": 1200 }
+      ]
+    },
+    "South America": {
+      "status": "Affected",
+      "countries": [
+        { "name": "Brazil", "cases": 1400 },
+        { "name": "Venezuela", "cases": 800 },
+        { "name": "Colombia", "cases": 600 }
+      ]
+    },
+    "Europe": {
+      "status": "Eradicated",
+      "countries": [
+        { "name": "All European Countries", "cases": 0 }
+      ]
+    },
+    "North America": {
+      "status": "Eradicated",
+      "countries": [
+        { "name": "USA", "cases": 0 },
+        { "name": "Canada", "cases": 0 },
+        { "name": "Mexico", "cases": 0 }
+      ]
+    }
+  }
+}
